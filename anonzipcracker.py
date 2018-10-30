@@ -5,7 +5,25 @@ import optparse
 from threading import Thread
 
 os.system("clear")
-os.system("figlet ZIP Cracker DSFS")
+os.system("figlet ZIP Cracker DSFS")|lolcat
+
+#welcome 
+def welcome():
+	wel = """
+	
+	    +========================================+
+        |........... ZIP Cracker DSFS ...........|
+        +----------------------------------------+
+        |         Creator : Anon6372098          | 
+        |      Thanks to  : Tuan c4rt00nw4r      |
+ 	    |         Github  : /Anon6372098         |
+        |Team : D4RK SYST3M F41LUR3 S33K3R (DSFS)|
+	    +========================================+
+        |........... ZIP Cracker DSFS ...........|
+        +----------------------------------------+\n\n
+"""|lolcat
+
+print wel
 
 def extractFile(zFile, password):
     try:
@@ -15,7 +33,7 @@ def extractFile(zFile, password):
     except:
         return
 def main():
-    parser = optparse.OptionParser('usage: python2 zipcracker.py ' + '-f <zipfile> -w <wordlist>')
+    parser = optparse.OptionParser('usage: python2 zipcracker.py ' + '-f <zipfile> -w <wordlist>')|lolcat
     parser.add_option('-f', dest='zname',type='string',help='specify zip file')
     parser.add_option('-w', dest='wname',type='string',help='specify wordlist file')
     (options,args) = parser.parse_args()
