@@ -8,17 +8,16 @@ os.system("clear")
 os.system("figlet ZIP Cracker DSFS")
 
 print 
-print "
-	+========================================+
-        |........... ZIP Cracker DSFS ...........|
-        +----------------------------------------+
-        |         Creator : Anon6372098          | 
-        |      Thanks to  : Tuan c4rt00nw4r      |
- 	|         Github  : /Anon6372098         |
-        |Team : D4RK SYST3M F41LUR3 S33K3R (DSFS)|
-	+========================================+
-        |........... ZIP Cracker DSFS ...........|
-        +----------------------------------------+\n\n"
+print "+========================================+
+       |........... ZIP Cracker DSFS ...........|
+       +----------------------------------------+
+       |         Creator : Anon6372098          | 
+       |      Thanks to  : Tuan c4rt00nw4r      |
+       |         Github  : /Anon6372098         |
+       |Team : D4RK SYST3M F41LUR3 S33K3R (DSFS)|
+       +========================================+
+       |........... ZIP Cracker DSFS ...........|
+       +----------------------------------------+\n\n"
 print
 
 
