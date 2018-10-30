@@ -7,10 +7,8 @@ from threading import Thread
 os.system("clear")
 os.system("figlet ZIP Cracker DSFS")
 
-#welcome 
-def welcome():
-	wel = """
-	
+print 
+print "
 	+========================================+
         |........... ZIP Cracker DSFS ...........|
         +----------------------------------------+
@@ -20,10 +18,9 @@ def welcome():
         |Team : D4RK SYST3M F41LUR3 S33K3R (DSFS)|
 	+========================================+
         |........... ZIP Cracker DSFS ...........|
-        +----------------------------------------+\n\n
-"""
+        +----------------------------------------+\n\n"
+print
 
-print wel
 
 def extractFile(zFile, password):
     try:
