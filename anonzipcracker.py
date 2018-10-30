@@ -5,7 +5,7 @@ import optparse
 from threading import Thread
 
 os.system("clear")
-os.system("figlet ZIP Cracker DSFS")
+os.system("figlet Anon ZIP Cracker")
 
 print 
 print "+========================================+"
@@ -18,6 +18,7 @@ print "|Team : D4RK SYST3M F41LUR3 S33K3R (DSFS)|"
 print "+========================================+"
 print "|-----------[Anon ZIP Cracker]-----------|"
 print "+----------------------------------------+"
+print "Use Command Below to Use This Tool/Gunakan Perintah Dibawah Ini"
 print
 
 def extractFile(zFile, password):
